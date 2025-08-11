@@ -462,3 +462,52 @@ Here are some examples:
 For MySQL, platforms like **PlanetScale** give serverless DB, but **not full backend** like Supabase.
 
 </details>
+
+---
+
+<details>
+<summary>Does Supabase, Firebase or other Managed Third Party Databases provide file storage facility?</summary>
+
+---
+
+Yes ✅
+
+Many **managed third-party databases** (especially BaaS platforms) provide **file storage** in addition to the database.
+
+| Platform          | Provides Storage? | Notes                                                       |
+| ----------------- | ----------------- | ----------------------------------------------------------- |
+| **Supabase**      | ✅ Yes             | File & image storage with public/private access control.    |
+| **Firebase**      | ✅ Yes             | Firebase Storage for files, backed by Google Cloud Storage. |
+| **Appwrite**      | ✅ Yes             | Self-hostable storage API.                                  |
+| **MongoDB Atlas** | ❌ No              | Only database, no file storage.                             |
+| **PlanetScale**   | ❌ No              | Only MySQL database.                                        |
+| **Neon**          | ❌ No              | Only PostgreSQL database.                                   |
+| **Railway**       | ❌ No              | Focused on hosting DBs & apps.                              |
+| **Render**        | ❌ No              | App & DB hosting, but no object storage.                    |
+| **Redis Cloud**   | ❌ No              | In-memory cache DB only.                                    |
+
+</details>
+
+---
+
+<details>
+<summary>What is the difference between "database" and "file storage"?</summary>
+
+---
+
+Here’s the key difference:
+
+| Feature         | **Database**                                                                       | **File Storage**                                              |
+| --------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| **Purpose**     | Store **structured data** (rows, columns, key-value, documents) for fast querying. | Store **unstructured data** like files, images, videos, PDFs. |
+| **Data Format** | Text, numbers, JSON, binary (small files).                                         | Raw files (any type) as they are.                             |
+| **Querying**    | Search/filter using SQL or API queries.                                            | No complex queries — only upload, download, list files.       |
+| **Performance** | Optimized for reading/writing small to medium-sized data quickly.                  | Optimized for serving large files efficiently.                |
+| **Examples**    | PostgreSQL, MySQL, MongoDB, Redis.                                                 | Firebase Storage, AWS S3, Supabase Storage.                   |
+
+💡 **Analogy**:
+
+* Database = Your **notebook** with organized tables of information.
+* File storage = Your **Google Drive folder** with raw files.
+
+</details>
