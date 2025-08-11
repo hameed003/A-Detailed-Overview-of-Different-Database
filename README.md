@@ -132,10 +132,7 @@ SQLite is **not like MySQL/PostgreSQL** — it’s file-based, meaning the “da
 
 </details>
 
----
-
 </details>
-
 
 ---
 
