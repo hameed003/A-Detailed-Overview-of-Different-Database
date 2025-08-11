@@ -22,7 +22,7 @@
 
 **Example of Self Hosted database:**
 - `SQL`: PlanetScale ( MySQL ), Supabase,Render, Railway, Neon.tech ( PostgreSQL )
-- `NoSQL`: MongoDB Atlas
+- `NoSQL`: MongoDB Atlas, Firebase
 </details>
 
 ---
