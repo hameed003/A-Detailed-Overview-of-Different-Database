@@ -344,7 +344,7 @@ If you want, I can **add a “What You Still Need to Build” column** to show e
 
 <details>
 
-<summary>What does Serverless means in database</summary>
+<summary>What does Serverless means in databases?</summary>
 
 ---
 
@@ -388,6 +388,8 @@ With Neon:
 
 </details>
 
+---
+
 <details>
 <summary>List of Third Party Managed database platforms that also have self-hosting options, especially if they are open-source.</summary>
 
@@ -408,6 +410,8 @@ Here are some examples:
 💡 **Note:** Services like **Firebase** or **MongoDB Atlas** are **not open-source**, so you cannot truly self-host them (you’d need to set up the underlying DB yourself instead).
 
 </details>
+
+---
 
 <details>
 <summary>Alternatives of Supabase:</summary>
