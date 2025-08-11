@@ -55,7 +55,7 @@
 
 Here’s a detailed **MySQL installation & usage table**:
 
-| **Method**                                | **Where it Runs**   | **Type**    | **How to Use**                                                                    | **Pros**                          | **Cons**                                      |
+| **Ways/Methods of installation**           | **Where it Runs**   | **Type**    | **How to Use**                                                                    | **Pros**                          | **Cons**                                      |
 | ----------------------------------------- | ------------------- | ----------- | --------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------------- |
 | **Local Install (XAMPP/WAMP/MAMP)**       | Your PC/Laptop      | Self-hosted | Install MySQL server locally, use phpMyAdmin or CLI                               | Offline dev, full control         | Not accessible online without port forwarding |
 | **Local Install (Direct MySQL)**          | Your PC/Laptop      | Self-hosted | Install MySQL via installer or package manager (e.g., `apt install mysql-server`) | Lightweight, direct control       | Manual config, no GUI by default              |
@@ -75,7 +75,7 @@ Here’s a detailed **MySQL installation & usage table**:
 
 Here’s the **PostgreSQL installation & usage table**:
 
-| **Method**                                | **Where it Runs**   | **Type**    | **How to Use**                                                       | **Pros**                           | **Cons**                                      |
+| **Ways/Methods of installation**           | **Where it Runs**   | **Type**    | **How to Use**                                                       | **Pros**                           | **Cons**                                      |
 | ----------------------------------------- | ------------------- | ----------- | -------------------------------------------------------------------- | ---------------------------------- | --------------------------------------------- |
 | **Local Install (pgAdmin)**               | Your PC/Laptop      | Self-hosted | Install PostgreSQL + pgAdmin locally, manage via GUI or CLI (`psql`) | Easy dev setup, full control       | Not accessible online without port forwarding |
 | **Local Install (Direct PostgreSQL)**     | Your PC/Laptop      | Self-hosted | Install via installer or package manager (`apt install postgresql`)  | Lightweight, full control          | Manual config needed                          |
@@ -115,7 +115,7 @@ MySQL and PostgreSQL **don't have fixed free storage limits** like `MongoDB Atla
 
 Here’s the **SQLite installation & usage table**:
 
-| **Method**                        | **Where it Runs**                    | **Type**            | **How to Use**                                                                    | **Pros**                                | **Cons**                                             |
+| **Ways/Methods of installation**  | **Where it Runs**                    | **Type**            | **How to Use**                                                                    | **Pros**                                | **Cons**                                             |
 | --------------------------------- | ------------------------------------ | ------------------- | --------------------------------------------------------------------------------- | --------------------------------------- | ---------------------------------------------------- |
 | **Local Install (Standalone)**    | Your PC/Laptop                       | Self-hosted         | Install SQLite CLI or use built-in support in languages (Python, PHP, Node, etc.) | Extremely lightweight, no server needed | Only one file, not great for heavy concurrent writes |
 | **Embedded in Application**       | Same machine as app                  | Self-hosted         | Bundled inside desktop/mobile/web apps                                            | Portable, works offline                 | Not suited for distributed access                    |
@@ -168,7 +168,7 @@ SQLite is **not like MySQL/PostgreSQL** — it’s file-based, meaning the “da
 
 Here’s the **MongoDB installation & usage table**:
 
-| **Method**                                | **Where it Runs**    | **Type**    | **How to Use**                                                | **Pros**                            | **Cons**                            |
+| **Ways/Methods of installation**           | **Where it Runs**    | **Type**    | **How to Use**                                                | **Pros**                            | **Cons**                            |
 | ----------------------------------------- | -------------------- | ----------- | ------------------------------------------------------------- | ----------------------------------- | ----------------------------------- |
 | **Local Install (MongoDB Community)**     | Your PC/Laptop       | Self-hosted | Install MongoDB locally, use `mongosh` or MongoDB Compass GUI | Full control, offline dev           | Not accessible online without setup |
 | **Local Install (Docker)**                | Your PC/Laptop       | Self-hosted | Run MongoDB in a Docker container (`docker run mongo`)        | Isolated environment, easy reset    | Need Docker knowledge               |
@@ -189,7 +189,7 @@ Here’s the **MongoDB installation & usage table**:
 
 Here’s the **Firestore installation & usage table**:
 
-| **Method**                                              | **Where it Runs**    | **Type**                   | **How to Use**                                                            | **Pros**                           | **Cons**                                               |
+| **Ways/Methods of installation**                        | **Where it Runs**    | **Type**                   | **How to Use**                                                            | **Pros**                           | **Cons**                                               |
 | ------------------------------------------------------- | -------------------- | -------------------------- | ------------------------------------------------------------------------- | ---------------------------------- | ------------------------------------------------------ |
 | **Firebase Local Emulator Suite**                       | Your PC/Laptop       | Self-hosted (for dev only) | Install Firebase CLI, run Firestore emulator (`firebase emulators:start`) | Test locally, no internet needed   | Not for production, data wiped easily                  |
 | **Firebase Firestore (Cloud)**                          | Google Cloud servers | Managed                    | Create Firestore DB in Firebase Console, use SDK or REST API              | Fully managed, scalable, real-time | Free tier has limits, tied to Google ecosystem         |
@@ -210,7 +210,7 @@ Unlike MySQL, PostgreSQL, or MongoDB, **Firestore can’t be truly self-hosted f
 ---
 Here’s the **Redis installation & usage table**:
 
-| **Method**                                | **Where it Runs**                                                      | **Type**    | **How to Use**                                                                     | **Pros**                              | **Cons**                                   |
+| **Ways/Methods of installation**          | **Where it Runs**                                                      | **Type**    | **How to Use**                                                                     | **Pros**                              | **Cons**                                   |
 | ----------------------------------------- | ---------------------------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------------------ |
 | **Local Install**                         | Your PC/Laptop                                                         | Self-hosted | Install Redis server from [redis.io](https://redis.io), run `redis-server` locally | Fast for dev, full control            | Not accessible from internet without setup |
 | **Self-Hosted on VPS**                    | Cloud servers (AWS, DigitalOcean, etc.)                                | Self-hosted | Install Redis on a cloud VM, connect via TCP                                       | Full control, customizable            | You handle scaling, backups, security      |
