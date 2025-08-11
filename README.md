@@ -414,7 +414,7 @@ Here are some examples:
 ---
 
 <details>
-<summary>Alternatives of Supabase:</summary>
+<summary>Alternatives of Supabase</summary>
 
 ---
 
